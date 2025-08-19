@@ -13,7 +13,7 @@ class Singleton{
 
         // Delete move constructor and move assignment
         Singleton(Singleton&&) = delete;
-        Singleton& operator=(Singleton&&) = delete
+        Singleton& operator=(Singleton&&) = delete;
     public:
         static Singleton& getinstance()
         {
